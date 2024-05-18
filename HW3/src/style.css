@@ -1,0 +1,18 @@
+body{
+    color: aquamarine;
+}
+
+h2{
+    color: rgb(4, 12, 12);
+    align-items: center;
+}
+
+div{
+    background-color: azure;
+    border: 0ch;
+    color: beige;
+}
+p{
+    text-align: center;
+    color: black;
+}
