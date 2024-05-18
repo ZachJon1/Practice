@@ -1,0 +1,4 @@
+/home/azakaria/Documents/cpp/HW2/src/build/CMakeFiles/task_1.dir
+/home/azakaria/Documents/cpp/HW2/src/build/CMakeFiles/task_2.dir
+/home/azakaria/Documents/cpp/HW2/src/build/CMakeFiles/edit_cache.dir
+/home/azakaria/Documents/cpp/HW2/src/build/CMakeFiles/rebuild_cache.dir
