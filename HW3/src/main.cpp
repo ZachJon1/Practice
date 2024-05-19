@@ -4,7 +4,7 @@
 #include <iostream>
 
 int main(){
-    std::ofstream html_file("/src/test.html");
+    std::ofstream html_file("test.html");
 
     std::streambuf* stream_buffer_cout = std::cout.rdbuf();
     std::cout.rdbuf(html_file.rdbuf());
@@ -24,9 +24,7 @@ int main(){
     html_writer::CloseBody();
     html_writer::CloseDocument();
 
-    std::cout.flush();
     std::cout.rdbuf(stream_buffer_cout);
-    html_file.close();
 
     return 0;
 

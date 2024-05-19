@@ -8,44 +8,51 @@
 namespace html_writer {
 
     void OpenDocument(){
+        fmt::print("<!-- Opening document -->\n");
         fmt::print("<!DOCTYPE html>\n"
                 "<html>\n"
                 "<head>\n"
                 "<title>Computer Vision Model Inferences</title>\n"
-                "</head>\n"
-                "<body>\n");
+                "</head>\n");
     }
 
     void CloseDocument(){
-        fmt::print("</body>\n"
-                "</html>\n");
+        fmt::print("<!-- Closing document -->\n");
+        fmt::print("</html>\n");
     }
 
     void AddCSSStyle(const std::string & stylesheet){
+        fmt::print("<!-- Adding CSS style: {} -->\n", stylesheet);
         fmt::print("<link rel=\"stylesheet\" type=\"text/css\" href=\"{}\">\n", stylesheet);
     }
 
     void AddTitle(const std::string & title){
+        fmt::print("<!-- Adding title: {} -->\n", title);
         fmt::print("<title>{}</title>\n", title);
     }
 
     void OpenBody(){
+        fmt::print("<!-- Opening body -->\n");
         fmt::print("<body>\n");
     }
 
     void CloseBody(){
+        fmt::print("<!-- Closing body -->\n");
         fmt::print("</body>\n");
     }
 
     void OpenRow(){
+        fmt::print("<!-- Opening row -->\n");
         fmt::print("<div class=\"row\">\n");
     }
 
     void CloseRow(){
+        fmt::print("<!-- Closing row -->\n");
         fmt::print("</div>\n");
     }
 
     void AddImage(const std::string& img_path, float score, bool highlight){
+        std::cout << "Adding image: " << img_path << " (score: " << score << ")" << std::endl;
         //check file type is png or jpg
         std::filesystem::path path(img_path);
         std::string extension = path.extension();

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/htmlwriter.dir/html_writer.cpp.o CMakeFiles/htmlwriter.dir/main.cpp.o -o htmlwriter  /usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0 

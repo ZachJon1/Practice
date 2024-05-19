@@ -1,0 +1,4 @@
+/home/azakaria/Documents/cpp/HW3/src/build/CMakeFiles/imagebrowser.dir
+/home/azakaria/Documents/cpp/HW3/src/build/CMakeFiles/htmlwriter.dir
+/home/azakaria/Documents/cpp/HW3/src/build/CMakeFiles/edit_cache.dir
+/home/azakaria/Documents/cpp/HW3/src/build/CMakeFiles/rebuild_cache.dir
