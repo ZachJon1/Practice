@@ -1,8 +1,8 @@
 #include <string>
 #include <vector>
-#include "../api/image_browser.hpp"
+#include "image_browser.hpp"
 #include <fmt/core.h>
-#include "../api/html_writer.hpp"
+#include "html_writer.hpp"
 #include <iostream>
 #include <filesystem>
 #include <fstream>
